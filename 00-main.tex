@@ -1,25 +1,36 @@
 \documentclass[12pt]{article}
 
-\include{include/includes}
-\include{include/macros}
+\input{include/includes}
+\input{include/macros}
 
 
 \newcommand{\Workpackage}{WP9}
 \newcommand{\DeliverableNumber}{D9.3}
 \newcommand{\DeliverableName}{Ethics review and recommendations}
-\newcommand{\DeliverableNature}{Report}
+\newcommand{\DeliverableNature}{Report (confidential)}
 \newcommand{\DeliverableDueDate}{31/7/2016}
-\newcommand{\DeliverableSubmissionDate}{Date XXX}
-\newcommand{\MainAuthor}{Name XXX}
-\newcommand{\CoAuthors}{Name XXX}
-\newcommand{\Reviewers}{Name XXX}
-\newcommand{\Keywords}{Keywords XXX}
+\newcommand{\DeliverableSubmissionDate}{29/7/2016}
+\newcommand{\MainAuthor}{Steve Renals (UEDIN)}
+\newcommand{\CoAuthors}{Susanne Weber (BBC), Peggy van der Kreeft (DW)}
+\newcommand{\Reviewers}{João Prieto (Priberam), Herv\'e Bourlard (IDIAP)}
+\newcommand{\Keywords}{Privacy, personal data. ethics, legal compliance}
 
 
-\include{include/firstpage}
+\input{include/firstpage}
 
-\include{intro}
-\include{conclusion}
+\input{intro}\clearpage
+\input{process}\clearpage
+\input{personalData}\clearpage
+\input{importExport}\clearpage
+%\input{dualUse}\clearpage
+\input{broaderEthics}\clearpage
+\input{conclusion}\clearpage
+% \begin{appendices}
+% \appendix
+% \input{externalReport}
+% \end{appendices}
+
+
 
 \include{include/lastpage}
 
